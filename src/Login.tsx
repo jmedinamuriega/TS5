@@ -30,6 +30,9 @@ const Login: React.FC = () => {
   return (
     <div>
       <form onSubmit={handleSubmit}>
+        <h1>Username:testuser
+            Password:testpasword
+        </h1>
         <div>
           <label>Username:</label>
           <input
